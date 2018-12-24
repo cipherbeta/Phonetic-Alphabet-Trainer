@@ -92,7 +92,21 @@ input:focus, button:focus{
     line-height: 1em;
     margin: 0 0 2rem;
     padding: 0;
+    box-sizing: border-box;
+    height: 16rem;
     text-transform: uppercase;
+}
+
+.wordReference {
+    height: 16rem;
+    margin: 0 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-weight: 100;
 }
 
 .wordInput {

@@ -24,7 +24,7 @@ class WordInput extends Component {
 
 const mapStateToProps = state => {
     return {
-        userCodeInput: state.userCodeInput
+        userCodeInput: state.userCodeInput,
     }
 }
 

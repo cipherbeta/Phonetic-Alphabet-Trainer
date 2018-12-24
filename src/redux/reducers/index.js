@@ -51,7 +51,8 @@ const rootReducer = (state = initialState, action) => {
                     correct: state.correct + 1, 
                     total: state.total + 1, 
                     currentLetter: alphabetLoopHandler(state), 
-                    userCodeInput: '' 
+                    userCodeInput: '',
+                    inputWasCorrect: true
                 }
             } else {
                 console.log("doesn't match");
@@ -59,7 +60,9 @@ const rootReducer = (state = initialState, action) => {
                     ...state, 
                     total: state.total + 1, 
                     currentLetter: alphabetLoopHandler(state), 
-                    userCodeInput: '' }
+                    userCodeInput: '',
+                    inputWasCorrect: false
+                }
             }
         
         // Returns the state as-is.
