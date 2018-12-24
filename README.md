@@ -1,6 +1,8 @@
 # NATO/IRSA Alphabet Trainer
 
-A simple, easy to use trainer for learning the NATO phonetic alphabet. Uses ReactJS and Redux for core functionality.
+A simple, easy to use trainer for learning the NATO phonetic alphabet. Uses ReactJS and Redux for core functionality. Uses React-Pose for some animations.
+
+[Check out a working version here.](https://cipherbeta.github.io/Phonetic-Alphabet-Trainer/)
 
 ### How To Install
 
