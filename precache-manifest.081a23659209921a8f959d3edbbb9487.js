@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/Phonetic-Alphabet-Trainer/static/css/1.1bad5a4a.chunk.css"
   },
   {
-    "revision": "52b2a7344e3e40b04577a33e3ef80788",
+    "revision": "eb1702d1bbf526920fcfe73632244519",
     "url": "/Phonetic-Alphabet-Trainer/index.html"
   }
 ];
