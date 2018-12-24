@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Phonetic-Alphabet-Trainer/precache-manifest.379ae452a28cd2205b5b669fe4a678a8.js"
+  "/Phonetic-Alphabet-Trainer/precache-manifest.72fc222ee0f033a5f054912a12aaa3d5.js"
 );
 
 workbox.clientsClaim();

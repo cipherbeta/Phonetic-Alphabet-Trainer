@@ -1,7 +1,7 @@
 {
   "main.css": "/Phonetic-Alphabet-Trainer/static/css/main.a41ae0f0.chunk.css",
-  "main.js": "/Phonetic-Alphabet-Trainer/static/js/main.28c23bbe.chunk.js",
-  "main.js.map": "/Phonetic-Alphabet-Trainer/static/js/main.28c23bbe.chunk.js.map",
+  "main.js": "/Phonetic-Alphabet-Trainer/static/js/main.948e2818.chunk.js",
+  "main.js.map": "/Phonetic-Alphabet-Trainer/static/js/main.948e2818.chunk.js.map",
   "static/css/1.1bad5a4a.chunk.css": "/Phonetic-Alphabet-Trainer/static/css/1.1bad5a4a.chunk.css",
   "static/js/1.681c3968.chunk.js": "/Phonetic-Alphabet-Trainer/static/js/1.681c3968.chunk.js",
   "static/js/1.681c3968.chunk.js.map": "/Phonetic-Alphabet-Trainer/static/js/1.681c3968.chunk.js.map",
@@ -11,6 +11,6 @@
   "static/media/carbon.png": "/Phonetic-Alphabet-Trainer/static/media/carbon.51bd2a3e.png",
   "static/css/main.a41ae0f0.chunk.css.map": "/Phonetic-Alphabet-Trainer/static/css/main.a41ae0f0.chunk.css.map",
   "index.html": "/Phonetic-Alphabet-Trainer/index.html",
-  "precache-manifest.379ae452a28cd2205b5b669fe4a678a8.js": "/Phonetic-Alphabet-Trainer/precache-manifest.379ae452a28cd2205b5b669fe4a678a8.js",
+  "precache-manifest.72fc222ee0f033a5f054912a12aaa3d5.js": "/Phonetic-Alphabet-Trainer/precache-manifest.72fc222ee0f033a5f054912a12aaa3d5.js",
   "service-worker.js": "/Phonetic-Alphabet-Trainer/service-worker.js"
 }
