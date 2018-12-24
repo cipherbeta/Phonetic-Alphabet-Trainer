@@ -58,7 +58,8 @@ class LetterReference extends Component {
 const mapStateToProps = state => {
     return {
         currentLetter: state.currentLetter,
-        inputWasCorrect: state.inputWasCorrect
+        inputWasCorrect: state.inputWasCorrect,
+        total: state.total
     }
 }
 

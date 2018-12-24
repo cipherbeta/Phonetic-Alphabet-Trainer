@@ -17,6 +17,19 @@ const H1 = posed.h1({
     }
 })
 
+const Small = posed.span({
+    enter: {
+        y: 0,
+        opacity: 1,
+        transition: {duration: 100, delay: 50}
+    },
+    exit: {
+        y: 10,
+        opacity: 0,
+        transition: {duration: 100}
+    }
+})
+
 class Counter extends Component {
     state = {
         isHovered: false
@@ -26,13 +39,18 @@ class Counter extends Component {
         this.setState({isHovered: value});
     }
     render(){
+        let totalRight = Math.ceil((this.props.correct / this.props.total) * 100);
     return(
         <div className="counter_wrapper" onClick={()=>store.dispatch(resetCounter())} 
             onMouseEnter={()=>this.handleUserHover(true)} onMouseLeave={()=>this.handleUserHover(false)}>
         <PoseGroup>
             {this.state.isHovered
             ? <H1 className="counter" key="reset">Reset Counter</H1>
-            : <H1 className="counter" key="count">{this.props.correct} / {this.props.total}</H1>
+            : <H1 className="counter" key="count" >{this.props.correct} / {this.props.total}</H1>
+            }
+            {totalRight
+                ?<H1 className="percent" key="percent">{totalRight ? <p>({totalRight}%)</p> : null}</H1>
+                : null 
             }
             
             
