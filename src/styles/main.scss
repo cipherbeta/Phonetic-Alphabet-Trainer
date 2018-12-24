@@ -1,0 +1,130 @@
+// available weights are 100, 400
+$cFont: 'Barlow Condensed', sans-serif;
+
+$white: rgb(250,250,250);
+$black: rgb(10,10,14);
+$accent: rgb(250, 237, 38);
+$correct: rgb(73, 250, 38);
+$wrong: rgb(250, 38, 38);
+
+body {
+    background: $black;
+    color: $white;
+    font-family: $cFont;
+    font-weight: 400;
+    background-repeat: repeat;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+input:focus, button:focus{
+    outline: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.header {
+    height: 4em;
+    width: 100%;
+    padding: 0 2em;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    h1 {
+        font-weight: 400;
+        text-transform: uppercase;
+        line-height: 1rem;
+        font-size: 1.75rem;
+        text-align: center;
+        color: $accent;
+        small {
+            font-weight: 100;
+            font-size: 1rem;
+            color: $white;
+        }
+    }
+    &--navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        button {
+            margin-left: 1em;
+            text-transform: uppercase;
+            transition: .25s ease all;
+            background: none;
+            border: none;
+            border-bottom: 2px solid transparent;
+            color: $white;
+            padding: .5em;
+            cursor: pointer;
+            box-sizing: border-box;
+            &:focus {
+                border-bottom: 2px solid $accent;
+            }
+            &.active {
+                color: $accent;
+            }
+        }
+    }
+}
+
+.letterReference {
+    font-weight: 100;
+    font-size: 16rem;
+    line-height: 1em;
+    margin: 0 0 2rem;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.wordInput {
+    text-transform: uppercase;
+    background: none;
+    border: none;
+    border-bottom: 1px solid $accent;
+    border-top: 1px solid $accent;
+    padding: .5em .5em;
+    margin: 0 0 2rem;
+    font-size: 1.25em;
+    width: auto;
+    color: $white;
+    text-align: center;
+    border-radius: .25em;
+    box-sizing: border-box;
+    transition: .25s ease all;
+    &:focus {
+        border-top-color: $white;
+        border-bottom-color: $white;
+        box-sizing: border-box;
+    }
+}
+
+.counter_wrapper {
+    height: 2em;
+    width: 12em;
+    text-align: center;
+    cursor: pointer;
+}
+.counter {
+    margin: 0;
+    font-weight: 100;
+    text-transform: uppercase;
+}
